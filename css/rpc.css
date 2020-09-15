@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.gameFormulaire {
+    width: 100vw;
+    height: 100vh;
+    background-color: #272635;
+    box-sizing: border-box;
+}
+
+.formulaire {
+    width: 280px;
+    background-color: #F0BCD4;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.nom {
+    width: 240px;
+    padding: 20px;
+    position: relative;
+}
+
+.nomTexte{
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    background:rgb(255,255,255,0.5);
+    border-style: none;
+    text-align-last: center;
+}
+
+input:focus{
+    outline: none;
+}
+
+select:focus{
+    outline: none;
+}
+
+button:focus{
+    outline: none;
+}
+
+button:active{
+    outline: none;
+    opacity: 75%;
+}
+
+.radio {
+    width: 240px;
+    padding: 0 20 0 20;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.choixRadio{
+    display: flex;
+    justify-content: space-between;
+}
+
+.choixArme {
+    padding: 20px;
+    width: 240px;
+    position: relative;
+}
+
+.armes{
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    background:rgb(255,255,255,0.5);
+    border-style: none;
+    appearance: none;
+    text-align-last: center;
+}
+
+.boutonJouer {
+    padding: 20px;
+    width: 240px;
+    position: relative;
+}
+
+.jouer{
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    border-style: none;
+    
+}
+
+.gameJeu{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -2;
+}
+
+.joueur{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.computer{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.annonce {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 4em;
+}
+
+.rejouer {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border-style: none;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.titre {
+    color: white;
+    font-size: 4em;
+    position: absolute;
+    top: 20px;
+    text-transform: uppercase;
+}
+
+.emoji{
+    font-size: 22em;
+}
+
+.invisible {
+    display: none;
+}

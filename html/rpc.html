@@ -1,0 +1,52 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>Roche Papier Ciseaux</title>
+		<meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../css/rpc.css">
+	</head>
+		<body>
+			<div class="gameFormulaire">
+				<div class="formulaire">
+					<div class="nom">
+						Nom <br>
+						<input type="text" class="nomTexte">
+					</div>
+					<div class="radio">
+						Peau <br>
+						<div class="choixRadio">
+							<div><input type="radio" name="choixPeau" class="peau jaune" checked value="0">👋</div>
+							<div><input type="radio" name="choixPeau" class="peau blanc" value="1">👋🏻 </div>
+							<div><input type="radio" name="choixPeau" class="peau beige" value="2">👋🏽</div>
+							<div><input type="radio" name="choixPeau" class="peau brun" value="3">👋🏿</div>
+						</div>
+					</div>
+					<div class="choixArme">
+						Choix <br>
+						<select name="armes" class="armes">
+							<option value="0">🥔</option>
+							<option value="1">📄</option>
+							<option value="2">✂️</option>
+						  </select>
+					</div>
+					<div class="boutonJouer">
+						<button class="jouer" >Jouer</button>
+					</div>
+				</div>		
+			</div>
+			<div class="gameJeu">
+				<div class="joueur">
+					<H1 class="titre participant"></H1>
+					<p class="emoji emojiJoueur">✊</p>
+				</div>
+				<div class="computer">
+					<H1 class="titre">CPU</H1>
+					<p class="emoji emojiCPU">✊</p>
+				</div>
+				<p class="annonce"></p>
+				<button class="rejouer" >Rejouer</button>
+			</div>
+		</body>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+		<script defer src="../js/rpc.js"></script>
+</html>
