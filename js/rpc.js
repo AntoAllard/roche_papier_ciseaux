@@ -33,7 +33,7 @@ rejouer.addEventListener("click", () =>{
     .to(".gameFormulaire", {
       onStart: () => document.querySelector(".gameFormulaire").classList.remove("invisible"),
       opacity: 1})
-      .to(".formulaire", {ease: "back.out(1)", y: "100vh", duration: 1,})
+      .to(".formulaire", {ease: "back.out(1)", y: "0vh", duration: 1,})
 
 })
       
